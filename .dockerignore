@@ -1,0 +1,51 @@
+# Build artifacts
+bin/
+obj/
+
+# IDE and editor files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userprefs
+.DS_Store
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+README*
+
+# Tests
+Tests/
+**/*.Tests/
+**/*Tests.cs
+
+# Development settings
+launchSettings.json
+appsettings.Development.json
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+azure-pipelines.yml
+
+# Other
+*.http
